@@ -66,3 +66,8 @@ console.log("ESTADOS Y CAPITALES")
 console.log(`El estado es ${mexico.estados[4]} y su capital es ${mexico.capitales[4]} `);
 console.log(`El estado es ${mexico.estados[1]} y su capital es ${mexico.capitales[1]} `)
 
+/*Snippets
+en file 
+luego preference y configure user snippets y escribir el nombre del lenguaje 
+
+*/
