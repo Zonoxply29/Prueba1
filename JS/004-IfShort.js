@@ -15,7 +15,22 @@ si el alumno saca 70 o mas solo C
 si el alumno saca 65 o mas D+
 si el alumno saca 60 o mas D
 si solo saca de 59 o menos F
-*/
+
+let calificacion = 61;
+let examen = calificacion >=95 ? "A+" :
+    calificacion >= 90 ? "A" :
+    calificacion >=85 ? "B+":
+    calificacion >=80 ? "B":
+    calificacion >=75 ? "C+":
+    calificacion >=70 ? "C":
+    calificacion >=65 ? "D+":
+    calificacion >=60 ? "D" : "F";
+    console.log(examen)
+
+TAREA : HACER UNA OPCION DONDE LAS CALIFICACIONES DE 59 A 0 SEAN F 
+Y SI EN LA VARIABLE CALIFICACION INGRESAN OTRO TIPO DE DATO QUE LES IMPRIMA
+ESTE DATO NO ES VALIDO 
+    */
 
 
 /* EJERCICIO UNO INICIAR SESION CON UN IF SHORT
